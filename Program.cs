@@ -21,5 +21,8 @@ class Program
         //Rhombus
         RhombusGenerator bigRhombus = new RhombusGenerator(size: 10, filler: '$', background: '•');
         bigRhombus.generateRhombus(); 
+        //Circle
+        CircleGenerator bigCircle = new CircleGenerator(size: 10, filler:'$', background: '•' );
+        bigCircle.generatorCircle();
     }
 }   
